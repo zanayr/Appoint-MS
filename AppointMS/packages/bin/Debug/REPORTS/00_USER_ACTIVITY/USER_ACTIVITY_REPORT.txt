@@ -1,0 +1,111 @@
+REPORT KEY:
+USR #		User ID
+LGN		Log in
+LGN  FLD        Log in failed
+LGN  CNL	Closed without log in
+PSW  ***lo	Password
+OUT		Log out
+ADD  COU #	Add country to
+ADD  CIT #	Add city to database
+ADD  ADR #	Add address to database
+NEW  CUS	New customer
+ADD  CUS #	Add customer to database
+INS  CUS #	Inspect customer
+DEL  CUS #	Delete customer from database
+NEW  APP	New appointment
+ADD  APP #	Add appointment to database
+INS  APP # 	Inspect customer
+DEL  APP #	Delete appointment from database
+ACK  APP #	User acknowledged a 15 warning
+REP  0		Appointment type by month report
+REP  1		Appointments by user report
+RER  2		Customers by country report
+
+
+2018-11-28 17:55:39.7296      USR  1    LGN  PSW  ********ngo                   
+2018-11-28 17:55:44.3278      USR  1    NEW  CUS  
+2018-11-28 17:56:50.1379      USR  1    ADD  COU  1    
+2018-11-28 17:56:50.4071      USR  1    ADD  CIT  1    
+2018-11-28 17:56:50.6942      USR  1    ADD  ADR  1    
+2018-11-28 17:56:51.1966      USR  1    ADD  CUS  2    
+2018-11-28 17:57:11.4029      USR  1    NEW  APP  
+2018-11-28 17:58:21.4884      USR  1    ADD  APP  1    
+2018-11-28 17:58:26.9934      USR  1    INS  APP  1    
+2018-11-28 17:58:42.5587      USR  1    OUT  
+2018-11-30 10:26:13.6056      LGN  FLD  
+2018-11-30 10:26:22.8866      LGN  FLD  
+2018-11-30 10:26:34.8393      LGN  FLD  
+2018-11-30 10:26:36.6361      LGN  FLD  
+2018-11-30 10:26:38.9486      USR  CNL  
+2019-10-18 01:49:42.7773      LGN  FLD  
+2019-10-18 01:49:57.4501      LGN  FLD  
+2019-10-18 01:49:59.4149      USR  CNL  
+2019-10-18 02:05:40.0781      LGN  FLD  
+2019-10-18 02:05:47.2100      USR  CNL  
+2019-10-18 02:14:35.2120      USR  1    LGN  PSW  *est                          
+2019-10-18 02:16:06.3495      USR  1    OUT  
+2019-10-18 02:30:05.9735      USR  CNL  
+2019-10-18 02:34:22.0916      USR  CNL  
+2019-10-18 02:36:24.3263      USR  CNL  
+2019-10-18 02:39:09.4976      USR  CNL  
+2019-10-18 02:39:49.0475      USR  CNL  
+2019-10-18 02:40:24.5033      USR  1    LGN  PSW  *est                          
+2019-10-18 02:40:29.1574      USR  1    OUT  
+2019-10-18 02:41:08.8457      USR  1    LGN  PSW  *est                          
+2019-10-18 02:41:23.0283      USR  1    DEL  APP  2    
+2019-10-18 02:41:25.2680      USR  1    NEW  APP  
+2019-10-18 02:41:38.8876      USR  1    DEL  CUS  3    
+2019-10-18 02:41:41.6848      USR  1    NEW  CUS  
+2019-10-18 02:42:49.2002      USR  1    ADD  CIT  3    
+2019-10-18 02:42:49.4860      USR  1    ADD  ADR  3    
+2019-10-18 02:42:49.9968      USR  1    ADD  CUS  3    
+2019-10-18 02:42:55.1992      USR  1    INS  CUS  2    
+2019-10-18 02:43:08.2924      USR  1    ADD  ADR  4    
+2019-10-18 02:43:08.5753      USR  1    UPD  CUS  2    
+2019-10-18 02:43:13.1017      USR  1    INS  CUS  3    
+2019-10-18 02:43:45.5490      USR  1    ADD  ADR  5    
+2019-10-18 02:43:45.8168      USR  1    UPD  CUS  3    
+2019-10-18 02:43:50.0531      USR  1    INS  CUS  2    
+2019-10-18 02:44:00.9081      USR  1    ADD  ADR  6    
+2019-10-18 02:44:01.1789      USR  1    UPD  CUS  2    
+2019-10-18 02:44:09.1979      USR  1    NEW  CUS  
+2019-10-18 02:45:10.7303      USR  1    ADD  CIT  4    
+2019-10-18 02:45:10.9991      USR  1    ADD  ADR  7    
+2019-10-18 02:45:11.5128      USR  1    ADD  CUS  3    
+2019-10-18 02:45:50.3631      USR  1    LGN  PSW  *est                          
+2019-10-18 02:46:00.2607      USR  1    NEW  APP  
+2019-10-18 02:47:13.0442      USR  1    ADD  APP  2    
+2019-10-18 02:47:15.7108      USR  1    NEW  APP  
+2019-10-18 02:48:10.5892      USR  1    ADD  APP  3    
+2019-10-18 02:48:14.9200      USR  1    NEW  APP  
+2019-10-18 02:48:50.0683      USR  1    ADD  APP  4    
+2019-10-18 02:48:53.1168      USR  1    NEW  APP  
+2019-10-18 02:49:26.0369      USR  1    ADD  APP  5    
+2019-10-18 02:49:28.7881      USR  1    NEW  APP  
+2019-10-18 02:49:59.8338      USR  1    ADD  APP  6    
+2019-10-18 02:50:04.3603      USR  1    INS  APP  4    
+2019-10-18 02:50:39.0232      USR  1    DEL  APP  4    
+2019-10-18 02:50:41.2683      USR  1    INS  APP  3    
+2019-10-18 02:50:50.8037      USR  1    DEL  APP  3    
+2019-10-18 02:50:55.6680      USR  1    DEL  APP  2    
+2019-10-18 02:50:59.4160      USR  1    DEL  APP  5    
+2019-10-18 02:51:04.0420      USR  1    DEL  APP  6    
+2019-10-18 02:51:06.4936      USR  1    NEW  APP  
+2019-10-18 02:51:34.6524      USR  1    ADD  APP  2    
+2019-10-18 02:51:37.3204      USR  1    NEW  APP  
+2019-10-18 02:52:13.0965      USR  1    ADD  APP  3    
+2019-10-18 02:52:15.5180      USR  1    NEW  APP  
+2019-10-18 02:52:55.5205      USR  1    ADD  APP  4    
+2019-10-18 02:52:57.4869      USR  1    NEW  APP  
+2019-10-18 02:53:36.8516      USR  1    ADD  APP  5    
+2019-10-18 02:54:21.4831      USR  1    NEW  APP  
+2019-10-18 02:55:07.8337      USR  1    ADD  APP  6    
+2019-10-18 02:55:10.9578      USR  1    NEW  APP  
+2019-10-18 02:55:47.8062      USR  1    ADD  APP  7    
+2019-10-18 02:55:50.7344      USR  1    NEW  APP  
+2019-10-18 02:56:46.5550      USR  1    ADD  APP  8    
+2019-10-18 02:56:49.5452      USR  1    NEW  APP  
+2019-10-18 02:57:45.6527      USR  1    ADD  APP  9    
+2019-10-18 02:57:48.1061      USR  1    NEW  APP  
+2019-10-18 02:59:00.3318      USR  1    ADD  APP  10   
+2019-10-18 02:59:45.7108      USR  1    OUT  
