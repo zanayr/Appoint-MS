@@ -2,7 +2,7 @@
 A school software project, create and edit appointments using C# and MySQL. Windows only.
 
 ## Getting Started
-Download and run the execution file AppointMS.exe
+Download and run the AppointMS folder and execute the c969_Fickenscher.application file.
 
 ## Authentication
 User name is "Ryan Fickenscher", and password is "test"
