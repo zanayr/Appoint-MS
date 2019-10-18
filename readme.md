@@ -1,14 +1,14 @@
 ﻿# AppointMS
-A small appointment software project for C969 using C# and MySQL.
+A school software project, create and edit appointments using C# and MySQL. Windows only.
 
-## Running
-Download and run the execution.
+## Getting Started
+Download and run the execution file AppointMS.exe
 
 ## Authentication
-User name is Ryan Fickenscher, and password is "test"
+User name is "Ryan Fickenscher", and password is "test"
 
-## Use
-Ability to add, inspect, edit and delete appointments and customers.
-Generated calendar with apoinment dates.
+## How To Use
+Add, inspect, edit and delete appointments and customers.
+Load a generated calendar with apoinment dates and customers.
 
 Enjoy
